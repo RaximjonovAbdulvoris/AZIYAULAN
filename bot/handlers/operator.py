@@ -42,8 +42,8 @@ def _refresh_reason(error):
 _ARCHIVES_IN_FLIGHT: set[tuple[int, int]] = set()
 
 READY_TEXT = (
-    "✅ <b>Arizangiz bo‘yicha ish yakunlandi</b>\n\n"
-    "Murojaatingiz operator tomonidan ko‘rib chiqildi va yakunlandi.\n"
+    "Siz «WB Taxi» haydovchisi sifatida bazaga muvaffaqiyatli kiritildingiz. "
+    "Liniyaga chiqishingiz uchun tez orada operatorlarimiz aloqaga chiqishadi.\n\n"
     f"{CONTACT_FOOTER_HTML}"
 )
 
